@@ -1,5 +1,5 @@
-from core.listener import start_listener
+from core.telegram_bot import start_bot
 
 if __name__ == "__main__":
-    print("🔄 HamidBot Starting …")
-    start_listener()
+    print("🚀 HamidBot is Running...")
+    start_bot()
