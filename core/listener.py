@@ -14,7 +14,7 @@ def process_queue():
             with open(QUEUE_FILE, "w") as f:
                 f.write("")
     except FileNotFoundError:
-        pass  # queue not created yet
+        pass
 
 def start_listener():
     while True:
